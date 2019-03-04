@@ -1,0 +1,94 @@
+body
+{
+	color:black;
+	background-image: url("koala.jpg");
+	background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+*
+{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+}
+
+.index
+{
+	position:relative;
+	background:url(rimages/3.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:45%; 
+	width:100%;
+	background-position:center;
+	z-index:-1;
+	opacity:0.7;
+}
+
+
+/*.cn ul
+{
+	list-style:none;
+	display:none;
+}
+
+.cn ul:hover
+{
+	background-color:gray;
+	display:inline-block;
+	
+}*/
+
+
+
+.img
+{
+	width:700px;
+	height:400px;
+	background-position:center;
+    background-size:cover;
+}
+
+.outerbox
+{
+	width:700px;
+	overflow:hidden;
+}
+
+.slide
+{
+  position: relative;
+  width:4200px;
+  animation: slider 24s infinite;
+}
+
+.slide img
+{
+	float:left;
+}
+
+@keyframes slider
+{
+	0%{ left:0px; }
+	12.5%{ left:0px; }
+	16.6%{ left:-700px; }
+	29.16%{ left:-700px; }
+	33.33%{ left:-1400px; }
+	45.8%{ left:-1400px; }
+	50%{ left:-2100px; }
+	62.5%{ left:-2100px; }
+	66.66%{ left:-2800px; }
+	79.16%{ left:-2800px; }
+	83.33%{ left:-3500px; }
+	95.83%{ left:-3500px; }
+	100%{ left:-4200px; }
+}
+
+.img2
+{
+	width:285px;
+	height:177px;
+	opacity:0.8;
+}

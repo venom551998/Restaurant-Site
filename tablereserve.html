@@ -1,0 +1,40 @@
+<html>
+<head>
+   <link rel="stylesheet" href="tablereserve.css">
+   <script>
+function sbmt(i)
+{
+	if(i==1)
+		document.theForm.action="tablereservation.py";
+	if(i==2)
+		document.theForm.action="signup.html";	
+		
+	document.theForm.submit();
+}
+</script>
+
+</head>
+
+<body>
+</br><br/></br></br></br></br></br></br></br></br><center>
+   <fieldset style="width:50%"><legend style="position:center">TABLE RESERVATION PAGE/</legend></br></br>
+      <form name="theForm">
+	  
+          ID: <pre><input type="text" name="email" required ></pre> </br>
+          PASSWORD: <pre><input type="password" name="password" maxlength="20"  required></pre>
+		  <input type="submit" value="Login" onClick="sbmt(1)"/>
+          
+         <!--</br></br><a href="tablereservation.py"><input type="submit" value="Login"></a> </br></br><hr><br/>
+      
+	</form>  -->
+	      </br></br><hr><br/>
+                 <h4><center> IF YOU HAVEN'T SIGN UP CLICK BELOW: </center></h4>
+				 
+      <!--<form action="signup.html">-->
+	    <input type="submit" value="Signup" onClick="sbmt(2)"/>
+         <!--<button><b> Sign-Up </b></button>-->
+      </form>
+   </fieldset>
+            </center>
+</body>
+</html>

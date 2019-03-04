@@ -1,0 +1,62 @@
+<html>
+<head>
+       <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	   <script src="JQ.js"></script>
+       <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" type="text/css" href="payment.css" />
+</head>
+
+<body>
+<form action="payment.py">
+<center><div class="container-fluid"><div class ="top_div">
+<center>Congratulations ! You are just one step behind for booking your table.<br><br>
+Kindly fill up the following details to proceed for the payment :</center> <br/>
+</div></div></center>
+<div class="container-fluid">
+<div class="mainn">
+  <div class="containerrr">
+    <label><b>Card Number</b></label>&nbsp;&nbsp;
+    <input type="text" placeholder="Enter Card No." name="card_number" maxlength="16" pattern="[0-9]{16}" required><br><br>
+
+    <label><b>CVC Number</b></label>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Enter CVC No." name="cvc_number" maxlength="3" pattern="[0-9]{3}" required><br><br>
+	
+	<label><b>Password</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="password"  name="password" maxlength="4" required><br><br>
+
+
+     <label><b>Expiry Date</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <input type="date"  name="date" required><br><br>
+	  <!--<select name="month" required>
+	   <option value=''>Month</option>
+	   <option value='01'>January</option>
+	   <option value='02'>February</option>
+	   <option value='03'>March</option>
+	   <option value='04'>April</option>
+	   <option value='05'>May</option>
+	   <option value='06'>June</option>
+	   <option value='07'>July</option>
+	   <option value='08'>August</option>
+	   <option value='09'>September</option>
+	   <option value='10'>October</option>
+	   <option value='11'>November</option>
+	   <option value='12'>December</option>
+	  </select> 
+	  
+	  
+	  <select name="year" required>
+	    <option value=''>Year</option>
+		<option value='17'>2017</option>
+		<option value='18'>2018</option>
+		<option value='19'>2019</option>
+		<option value='20'>2020</option>
+      </select>--></br></br>
+	
+	<div class="clearfix">
+      <button type="submit"  class="cancelbtn"><action="payment.html">Cancel Payment</button>
+      <button type="submit" class="signupbtn"><action="payment.py">Confirm Payment</button>
+    </div>
+   </div>
+  </div></div>
+</form>
+

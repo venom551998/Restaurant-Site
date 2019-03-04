@@ -1,0 +1,18 @@
+
+<script>
+function sbmt(i)
+{
+	if(i==1)
+		document.theForm.action="login.py";
+	if(i==2)
+		document.theForm.action="aa.html";	
+		
+	document.theForm.submit();
+}
+</script>
+<form name="theForm">
+<input type="text" name="empno" required>
+<input type="text" name="ename" required>
+<input type="submit" value="signin" onClick="sbmt(1)"/>
+<input type="submit" value="signup" onClick="sbmt(2)"/>
+</form>

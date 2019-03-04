@@ -1,0 +1,13 @@
+body 
+{
+    background-image: url("fck.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+} 
+
+*
+{
+	text-decoration:none;
+	
+}
